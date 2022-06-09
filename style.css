@@ -100,7 +100,7 @@ nav a:visited {
 .menu-bar > li > [aria-haspopup='true']:hover:after {
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1397521/arrowBottom.svg#light');
 }
-.menu-bar > li > [aria-haspopup='true']:focus ~ ul {
+.menu-bar > li > [aria-haspopup='true']:hover ~ ul {
   display: flex;
   transform-origin: top;
   animation: dropdown 0.2s ease-out;
@@ -111,13 +111,13 @@ nav a:visited {
 .menu-bar > li:focus-within > [aria-haspopup='true'] ~ ul {
   display: flex;
 }
-.menu-bar > li > [aria-haspopup='true']:focus,
+.menu-bar > li > [aria-haspopup='true']:hover,
 .menu-bar > li:focus-within > [aria-haspopup='true'],
 .menu-bar > li:hover > a {
   background: #177e89;
   color: #ffffff;
 }
-.menu-bar > li > [aria-haspopup='true']:focus:after,
+.menu-bar > li > [aria-haspopup='true']:hover:after,
 .menu-bar > li:focus-within > [aria-haspopup='true']:after,
 .menu-bar > li:hover > a:after {
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1397521/arrowTop.svg#light');
@@ -299,14 +299,14 @@ nav a:visited {
     margin-right: 10px;
     display: inline-block;
   }
-  .mobile-menu-trigger:focus ~ ul {
+  .mobile-menu-trigger:hover ~ ul {
     left: 0;
   }
   .menu-bar:hover,
   .menu-bar:focus-within {
     left: 0;
   }
-  .menu-bar > li > [aria-haspopup='true']:focus ~ ul {
+  .menu-bar > li > [aria-haspopup='true']:hover ~ ul {
     left: 0;
   }
   .menu-bar > li > [aria-haspopup='true'] ~ ul {
