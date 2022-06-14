@@ -38,12 +38,12 @@ nav a:visited {
 }
 .menu-link {
   padding: 20px 25px;
-  color: #177e89;
+  color: #5f7487;
   transition: background 0.2s, color 0.2s;
   position: relative;
   z-index: 1;
   font-size: 20px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 .menu-link[aria-haspopup='true'] {
   padding-right: 40px;
@@ -64,16 +64,16 @@ nav a:visited {
   font-size: 1.2em;
   text-transform: uppercase;
   font-weight: bold;
-  color: #136a73;
+  color: #171b64;
 }
 .mega-menu {
   background: #fff;
   z-index: 10;
-  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2), 0 60px 120px rgba(0, 0, 0, 0.2), 0 60px 1260px 1640px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2), 0 60px 120px rgba(0, 0, 0, 0.2),
+    0 60px 1260px 1640px rgba(0, 0, 0, 0.2);
 }
 .mega-menu--multiLevel {
   flex-direction: column;
-  
 }
 /* @media all and (min-width: 951px) { */
 .nav {
@@ -114,7 +114,7 @@ nav a:visited {
 .menu-bar > li > [aria-haspopup='true']:hover,
 .menu-bar > li:focus-within > [aria-haspopup='true'],
 .menu-bar > li:hover > a {
-  background: #177e89;
+  background: #0246ac;
   color: #ffffff;
 }
 .menu-bar > li > [aria-haspopup='true']:hover:after,
@@ -133,8 +133,8 @@ nav a:visited {
   display: flex;
 }
 .mega-menu a:hover {
-  background: #dceced;
-  color: #136a73;
+  background: #01317a;
+  color: #fff;
 }
 .mega-menu--multiLevel > li {
   width: 33.33333333%;
@@ -159,12 +159,12 @@ nav a:visited {
 .mega-menu--multiLevel li:focus-within > [aria-haspopup='true'],
 .mega-menu--multiLevel li:hover > a,
 .mega-menu--multiLevel li:focus-within > a {
-  background: #dceced;
-  color: #136a73;
+  background: #01317a;
+  color: #fff;
 }
 .mega-menu--multiLevel [aria-haspopup='true'] ~ ul,
 .mega-menu--multiLevel [aria-haspopup='true'] {
-  border-left: 1px solid #f0f0f0;
+  border-left: 1px solid #e9e9f2;
 }
 .mega-menu--multiLevel [aria-haspopup='true'] ~ ul:hover,
 .mega-menu--multiLevel [aria-haspopup='true']:hover {
@@ -383,7 +383,7 @@ nav a:visited {
 }
 
 .menu-sub-link {
-  color: #177e89;
+  color: #5f7487;
   padding: 6px 25px;
 }
 
